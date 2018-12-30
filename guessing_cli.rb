@@ -7,6 +7,7 @@ def check_guess(guess, dice)
   message = guess == dice ? "You guessed the correct number!" : "The computer guessed #{dice}."
   puts message
 end
+
 def run_guessing_game
   while true
       puts 'Guess a number between 1 and 6.'
